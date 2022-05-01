@@ -4,7 +4,7 @@
 properties() { '
 kernel.string=laurel_sprout kernel
 do.devicecheck=1
-do.modules=1
+do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
@@ -20,7 +20,7 @@ is_slot_device=1;
 ramdisk_compression=auto;
 
 ## AnyKernel methods (DO NOT CHANGE)
-# import patching functions/variables - see for reference 
+# import patching functions/variables - see for reference
 . tools/ak3-core.sh;
 
 ## AnyKernel install
